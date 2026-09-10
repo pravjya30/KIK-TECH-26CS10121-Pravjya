@@ -1,0 +1,46 @@
+html{
+    background-color: hsl(0, 12%, 94%);
+    color: #090909;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    margin: 40px auto;
+    max-width: 800px;
+    padding 30px rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    border: 1 px solid #3a506b;
+}
+h1{
+    font-size: xx-large;
+    font-family:cursive;
+    font-display: fallback;
+    color: hsl(243, 91%, 54%);
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow:aqua;
+    
+}
+h2,h3{
+    color: #3661ec;
+    font-size: 1.4 rem;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+}
+strong{
+    color: #312be4;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+} 
+a {
+    color: hsl(246, 100%, 50%);
+    text-decoration: none;
+    transition: color 0.2 ease;
+}
+a:hover{
+    color: #f00cd1;
+    text-decoration: underline;
+}

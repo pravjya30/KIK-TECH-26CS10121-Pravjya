@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./regstyle.css"
+    <title>Document</title>
+</head>
+<body>
+        <h1>Registration for SF</h1>
+        <main>
+        <p>Please fill out the form below to complete your registration</p>
+
+        <!--Form-->
+    <div id="form-container">
+        <form id="registration-form">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="roll_number">Roll Number:</label>
+            <input type="text" id="roll_number" name="roll_number" placeholder="e.g., 22CS10001" required><br><br>
+
+            <label for="department">Department:</label><br>
+            <select id="department" name="department">
+                <option value="Aerospace Engineering">Aerospace Engineering </option>
+                <option value="Agricultural and Food Engineering">Agricultural and Food Engineering </option>
+                <option value="Biotechnology">Biotechnology</option>
+                <option value="Chemical Engineering">Chemical Engineering</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Computer Science and Engineering">Computer Science and Engineering </option>
+                <option value="Electrical Engineering">Electrical Engineering </option>
+                <option value="Electronics and Electrical Engineering">Electronics and Electrical Engineering </option>
+                <option value="Geology and Geophysics">Geology and Geophysics </option>
+                <option value="Industrial and System Engineering">Industrial and System Engineering </option>
+                <option value="Mathematics">Mathematics </option>
+                <option value="Mechanical Engineering">Mechanical Engineering </option>
+                <option value="Metallurgical and Materials Engineering">Metallurgical and Materials Engineering </option>
+                <option value="Mining Engineering">Mining Engineering </option>
+                <option value="Physics">Physics </option>
+            </select>
+            <br><br>
+
+            <label for="Passes Available">Passes Available:</label><br>
+            <select id="passes_available" name="passes_available">
+                <option value="Gold">Gold </option>
+                <option value="Silver">Silver </option>
+                <option value="Bronze">Bronze</option>
+                </select>
+                <br><br>
+
+            <button type="submit">Submit Registration</button>
+            
+        </form>
+    </div>
+
+    <div id="success-message" style="display: none;">
+        <h2>Registration Successful!!</h2>
+    </div>
+
+        <br>
+        <a href="index.html">Back to home</a>
+    </main>
+    <script src="main.js"></script>
+    
+</body>
+</html>
